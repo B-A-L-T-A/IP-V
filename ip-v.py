@@ -25,7 +25,7 @@ while True:
      _)(_  )___/(___)\  / 
     (____)(__)        \/  
     """)
-    user_in = input(WHITE + "-> Ingrese su dirección IP: ")
+    user_in = input(WHITE + "-> Ingrese la dirección IP: ")
     if ip_checker(user_in):
         print(f"Genial!!! {user_in} es una dirección IP válida! ")
     else:
