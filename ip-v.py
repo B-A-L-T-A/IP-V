@@ -6,7 +6,6 @@ while True:
     def ip_checker(ip_address):
         try:
             separated_address = ip_address.split('.')
-            # print(separated_address)
             valid_ip = 0
             for i in separated_address:
                 if int(i) >= 0 and int(i) <= 255:
