@@ -1,5 +1,8 @@
 import time
 from colorama import init, Fore
+import os
+
+os.system("clear")
 
 while True:
     def ip_checker(ip_address):
