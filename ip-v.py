@@ -4,6 +4,12 @@ import os
 
 os.system("clear")
 
+loop = tqdm(total=30000, position=0, leave=False)
+for k in range(30000):
+    loop.set_description(Fore.LIGHTRED_EX + 'Opening Script'.format(k))
+    loop.update(1)
+loop.close()
+
 while True:
     def ip_checker(ip_address):
         try:
